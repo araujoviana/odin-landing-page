@@ -71,6 +71,9 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 120px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .cards {
@@ -111,11 +114,27 @@ button {
 
 .quote {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;    
+    padding-top: 115px;
+    padding-bottom: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 .quote-text {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 300;
     color: #1F2937;
     font-style: italic;
+
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+}
+
+.credit-text {
+    font-weight: bold;
+    font-size: 20px;
 }
