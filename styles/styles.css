@@ -10,7 +10,11 @@ body {
     font-family: "Roboto";
     display: flex;
     flex-direction: column;
+}
 
+.whole-website > * {
+    padding-left: 185px;
+    padding-right: 185px;
 }
 
 .header, .top {
@@ -21,6 +25,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 .logo-text {
@@ -60,6 +65,7 @@ a {
     justify-content: space-around;
     padding: 180px 150px;
     gap: 50px;
+
 }
 .information {
     display: flex;
