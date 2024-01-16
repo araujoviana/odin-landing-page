@@ -35,7 +35,7 @@ body {
 }
 
 
-.header-link, .awesome-subtext {
+.header-link, .awesome-subtext, .call-details {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -47,6 +47,7 @@ body {
     color: #F9FAF8;
     margin: 0;
 }
+
 
 ul {
     display: flex;
@@ -93,7 +94,7 @@ a {
     text-align: center;
 }
 
-button, .bottom-left {
+button, .bottom {
     background-color: #3882F6;
 }
 
@@ -134,7 +135,30 @@ button {
     padding-bottom: 0;
 }
 
-.credit-text {
+.credit-text, .call-text {
     font-weight: bold;
     font-size: 20px;
+}
+
+.bottom {
+    color:#F9FAF8;
+    margin: 150px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+.call-text, .call-details {
+    margin: 0;
+}
+
+#bottom-button {
+    border-color: white;
+    border: 2px solid white;
+    padding: 10px 28px;
+
 }
